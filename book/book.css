@@ -142,6 +142,55 @@
   background: var(--color-accent);
 }
 
+.event-date {
+  display: block;
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0.1rem;
+}
+
+/* The world-events block leads the page, so it sits tight under the hero. */
+.events-section {
+  padding-top: 3rem;
+}
+
+/* ---- Map ---- */
+.map-wrap {
+  margin-bottom: 2rem;
+}
+
+.chapter-map {
+  display: block;
+  width: 100%;
+  height: clamp(240px, 38vw, 380px);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.map-caption {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+  color: var(--color-muted);
+}
+
+.map-caption strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.map-attrib {
+  margin-left: auto;
+  font-size: 0.78rem;
+}
+
 /* ---- Prev / next ---- */
 .chapter-nav-section {
   padding-bottom: 3rem;
@@ -288,6 +337,12 @@
   font-weight: 500;
 }
 
+.tl-place {
+  color: var(--color-muted);
+  font-size: 0.83rem;
+  margin-bottom: 0.35rem;
+}
+
 .tl-teaser {
   color: var(--color-muted);
   font-size: 0.92rem;
@@ -310,6 +365,13 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-right: 0.35rem;
+}
+
+/* On timeline cards the date runs inline with the headline, not above it. */
+.tl-world .event-date {
+  display: inline;
+  margin-right: 0.35rem;
+  font-size: 0.72rem;
 }
 
 .tl-more {
