@@ -157,9 +157,53 @@
   padding-top: 3rem;
 }
 
+/* ---- Place: real photo + map side by side ---- */
+.place-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 760px) {
+  .place-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.place-photo {
+  margin: 0;
+}
+
+.place-photo img {
+  width: 100%;
+  height: clamp(240px, 38vw, 380px);
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+  border: 1px solid var(--color-border);
+}
+
+.place-photo figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+.place-photo figcaption a {
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* ---- Map ---- */
 .map-wrap {
   margin-bottom: 2rem;
+}
+
+.place-grid .map-wrap {
+  margin-bottom: 0;
 }
 
 .chapter-map {
@@ -306,6 +350,15 @@
   border-radius: 50%;
   background: var(--color-accent);
   border: 3px solid var(--color-bg);
+}
+
+.tl-thumb {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: calc(var(--radius) - 4px);
+  display: block;
+  margin-bottom: 0.85rem;
 }
 
 .tl-item.left .tl-dot {
