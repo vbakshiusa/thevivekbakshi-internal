@@ -19,6 +19,70 @@
   font-size: 1rem;
 }
 
+/* ---- History timeline (era-grouped) ---- */
+.history-timeline {
+  margin-top: 0.5rem;
+}
+
+.era-block {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  column-gap: 1.5rem;
+  margin-bottom: 2.75rem;
+}
+
+.era-block:last-child {
+  margin-bottom: 0;
+}
+
+.era-marker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.era-marker::before {
+  content: "";
+  position: absolute;
+  top: 0.1rem;
+  bottom: -2.75rem;
+  left: 50%;
+  width: 2px;
+  background: var(--color-border);
+  transform: translateX(-50%);
+}
+
+.era-block:last-child .era-marker::before {
+  display: none;
+}
+
+.era-dot {
+  width: 14px;
+  height: 14px;
+  margin-top: 0.35rem;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-bg);
+  position: relative;
+  z-index: 1;
+}
+
+.era-heading {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.1rem;
+}
+
+@media (max-width: 560px) {
+  .era-block {
+    grid-template-columns: 18px 1fr;
+    column-gap: 1rem;
+  }
+}
+
 .movies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
