@@ -19,6 +19,17 @@
   font-size: 1rem;
 }
 
+.subsection-heading {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 2.25rem 0 1.1rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--color-border);
+}
+
 /* ---- History timeline (era-grouped) ---- */
 .history-timeline {
   margin-top: 0.5rem;
