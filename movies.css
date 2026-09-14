@@ -1,67 +1,22 @@
-/* ============ Favorite Movies ============ */
+/* ============ Favorite Indian Movies ============ */
 
-.movie-sort {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
-
-.sort-btn {
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 0.55rem 1.1rem;
-  border-radius: var(--radius);
-  border: 1px solid var(--color-border);
-  background: var(--color-bg);
-  color: var(--color-muted);
-  cursor: pointer;
-  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
-}
-
-.sort-btn:hover {
-  border-color: var(--color-accent);
-  color: var(--color-text);
-}
-
-.sort-btn.active {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
-  color: #fff;
-}
-
-.movies-view[hidden] {
-  display: none;
-}
-
-.decade-heading,
-.genre-heading {
-  font-size: 1.15rem;
+.category-heading {
+  font-size: 1.3rem;
   font-weight: 700;
-  margin: 2rem 0 1rem;
+  margin: 2.5rem 0 1.25rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.5rem;
 }
 
-.decade-heading:first-child,
-.genre-heading:first-child {
+.category-heading:first-child {
   margin-top: 0;
 }
 
-.genre-count {
+.category-count {
   font-weight: 500;
   color: var(--color-muted);
-  font-size: 0.95rem;
-}
-
-.genre-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--tag-color, var(--color-accent));
-  display: inline-block;
+  font-size: 1rem;
 }
 
 .movies-grid {
@@ -104,19 +59,6 @@
   height: 100%;
   object-fit: cover;
   background: var(--color-surface);
-}
-
-.movie-rank {
-  position: absolute;
-  top: 0.6rem;
-  left: 0.6rem;
-  background: rgba(0, 0, 0, 0.55);
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.2rem 0.55rem;
-  border-radius: 999px;
-  backdrop-filter: blur(2px);
 }
 
 .movie-info {

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Favorite Movies — Vivek Bakshi</title>
-  <meta name="description" content="Vivek Bakshi's favorite Hindi films, sortable by personal ranking, genre, or release year.">
+  <title>Favorite Indian Movies — Vivek Bakshi</title>
+  <meta name="description" content="Vivek Bakshi's favorite Indian films, organized into History, Classics, Comedies, and Drama.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -30,63 +30,91 @@
 
   <main>
     <div class="page-header container">
-      <h1>Favorite Movies</h1>
-      <p>Twenty-four films, ranked my way — switch the view to sort by genre or by release year instead.</p>
+      <h1>Favorite Indian Movies</h1>
+      <p>Twenty-four films I keep coming back to, organized into History, Classics, Comedies, and Drama.</p>
       <p class="poster-note">Posters are used under fair use for identification and commentary purposes, sourced via each film's Wikipedia article.</p>
     </div>
 
     <section class="section" style="border-top:none;">
       <div class="container">
-        <div class="movie-sort" role="tablist" aria-label="Sort movies">
-          <button type="button" class="sort-btn active" data-view="rank">My Ranking</button>
-          <button type="button" class="sort-btn" data-view="genre">By Genre</button>
-          <button type="button" class="sort-btn" data-view="year">By Release Year</button>
-        </div>
+        
+        <h2 class="category-heading">History <span class="category-count">(7)</span></h2>
+        <div class="movies-grid">
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/01-gandhi.png" alt="Gandhi (1982) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Gandhi <span class="movie-year">(1982)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
+              <p class="movie-blurb">Richard Attenborough’s sweeping epic follows Mohandas Gandhi from a young lawyer thrown off a train in South Africa to the father of a nation’s independence. Ben Kingsley’s performance carried eight Oscars, including Best Picture.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/02-sardar.jpg" alt="Sardar (1993) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Sardar <span class="movie-year">(1993)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
+              <p class="movie-blurb">Paresh Rawal delivers a career-defining turn as Sardar Vallabhbhai Patel, focusing on the final years he spent unifying over 500 princely states into a single India.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/03-the-legend-of-bhagat-singh.jpg" alt="The Legend of Bhagat Singh (2002) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">The Legend of Bhagat Singh <span class="movie-year">(2002)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
+              <p class="movie-blurb">Ajay Devgn’s intense portrayal of the young revolutionary traces Bhagat Singh’s path from witnessing the Jallianwala Bagh massacre to his execution at 23, scored by A. R. Rahman.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/17-bharat-ek-khoj.jpg" alt="Bharat Ek Khoj (1988) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Bharat Ek Khoj <span class="movie-year">(1988)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
+              <p class="movie-blurb">Shyam Benegal’s 53-episode adaptation of Nehru’s “The Discovery of India” dramatizes five thousand years of subcontinental history — Doordarshan appointment viewing at its most ambitious.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/18-sam-bahadur.jpg" alt="Sam Bahadur (2023) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Sam Bahadur <span class="movie-year">(2023)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
+              <p class="movie-blurb">Vicky Kaushal channels Field Marshal Sam Manekshaw’s wit and resolve through the 1971 war that created Bangladesh, directed by Meghna Gulzar.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/19-shershaah.jpg" alt="Shershaah (2021) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Shershaah <span class="movie-year">(2021)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
+              <p class="movie-blurb">Sidharth Malhotra plays Kargil War hero Captain Vikram Batra in this tribute to the soldier awarded India’s highest wartime gallantry honor, posthumously.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/04-pradhanmantri.jpg" alt="Pradhanmantri (2013) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Pradhanmantri <span class="movie-year">(2013)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#57534e">Documentary</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
+              <p class="movie-blurb">Shekhar Kapur hosts this ABP News documentary series chronicling India’s prime ministers from Nehru onward — a weekly civics lesson dressed as television.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article></div>
 
-        <div class="movies-view" data-view="rank">
-          <div class="movies-grid">
-          <article class="movie-card" data-rank="1" data-year="1982" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/01-gandhi.png" alt="Gandhi (1982) poster" loading="lazy"><span class="movie-rank">#1</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Gandhi <span class="movie-year">(1982)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Richard Attenborough’s sweeping epic follows Mohandas Gandhi from a young lawyer thrown off a train in South Africa to the father of a nation’s independence. Ben Kingsley’s performance carried eight Oscars, including Best Picture.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="2" data-year="1993" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/02-sardar.jpg" alt="Sardar (1993) poster" loading="lazy"><span class="movie-rank">#2</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sardar <span class="movie-year">(1993)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Paresh Rawal delivers a career-defining turn as Sardar Vallabhbhai Patel, focusing on the final years he spent unifying over 500 princely states into a single India.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="3" data-year="2002" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/03-the-legend-of-bhagat-singh.jpg" alt="The Legend of Bhagat Singh (2002) poster" loading="lazy"><span class="movie-rank">#3</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">The Legend of Bhagat Singh <span class="movie-year">(2002)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Ajay Devgn’s intense portrayal of the young revolutionary traces Bhagat Singh’s path from witnessing the Jallianwala Bagh massacre to his execution at 23, scored by A. R. Rahman.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="4" data-year="2013" data-genres="Documentary,Historical,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/04-pradhanmantri.jpg" alt="Pradhanmantri (2013) poster" loading="lazy"><span class="movie-rank">#4</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Pradhanmantri <span class="movie-year">(2013)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#57534e">Documentary</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shekhar Kapur hosts this ABP News documentary series chronicling India’s prime ministers from Nehru onward — a weekly civics lesson dressed as television.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="5" data-year="1971" data-genres="Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/05-anand.jpg" alt="Anand (1971) poster" loading="lazy"><span class="movie-rank">#5</span></div>
+        <h2 class="category-heading">Classics <span class="category-count">(4)</span></h2>
+        <div class="movies-grid">
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/05-anand.jpg" alt="Anand (1971) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Anand <span class="movie-year">(1971)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -95,8 +123,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Anand_(1971_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="6" data-year="1975" data-genres="Action,Adventure,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/06-sholay.jpg" alt="Sholay (1975) poster" loading="lazy"><span class="movie-rank">#6</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/06-sholay.jpg" alt="Sholay (1975) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Sholay <span class="movie-year">(1975)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Adventure</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -105,8 +133,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="7" data-year="1987" data-genres="Action,Comedy,Sci-Fi">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/07-mr-india.jpg" alt="Mr. India (1987) poster" loading="lazy"><span class="movie-rank">#7</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/07-mr-india.jpg" alt="Mr. India (1987) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Mr. India <span class="movie-year">(1987)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Sci-Fi</span></div>
@@ -115,168 +143,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="8" data-year="2003" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/08-munna-bhai-m-b-b-s.jpg" alt="Munna Bhai M.B.B.S. (2003) poster" loading="lazy"><span class="movie-rank">#8</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Munna Bhai M.B.B.S. <span class="movie-year">(2003)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">A tender-hearted gangster fakes his way into medical school and ends up teaching the profession a thing or two about bedside manner. Sanjay Dutt at his most likable.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="9" data-year="2006" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/09-lage-raho-munna-bhai.jpg" alt="Lage Raho Munna Bhai (2006) poster" loading="lazy"><span class="movie-rank">#9</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lage Raho Munna Bhai <span class="movie-year">(2006)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">The sequel that turned Gandhian philosophy into a pop-culture phenomenon, coining “Gandhigiri” for a generation that had mostly filed Gandhi under textbook history.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="10" data-year="2007" data-genres="Sports,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/10-chak-de-india.jpg" alt="Chak De! India (2007) poster" loading="lazy"><span class="movie-rank">#10</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Chak De! India <span class="movie-year">(2007)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Shah Rukh Khan sheds the romantic-hero image to coach a fractured women’s hockey team to redemption — and delivers one of Bollywood’s great sports-movie speeches.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="11" data-year="1994" data-genres="Comedy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/11-andaz-apna-apna.jpg" alt="Andaz Apna Apna (1994) poster" loading="lazy"><span class="movie-rank">#11</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Andaz Apna Apna <span class="movie-year">(1994)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span></div>
-              <p class="movie-blurb">A gloriously silly cult comedy about two broke suitors chasing the same heiress — quoted line-for-line by fans who somehow love it more with every rewatch.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Andaz_Apna_Apna" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Andaz_Apna_Apna" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="12" data-year="1995" data-genres="Romance,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/12-bombay.jpg" alt="Bombay (1995) poster" loading="lazy"><span class="movie-rank">#12</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bombay <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Mani Ratnam sets an inter-religious love story against the real 1992–93 Bombay riots, with an A. R. Rahman score that has outlived the film’s original controversy.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="13" data-year="2016" data-genres="Sports,Biographical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/13-dangal.jpg" alt="Dangal (2016) poster" loading="lazy"><span class="movie-rank">#13</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dangal <span class="movie-year">(2016)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan trains his daughters to become world-class wrestlers in a small-town Haryana that never expected girls to wrestle at all — based on the real Phogat family.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="14" data-year="1983" data-genres="Comedy,Satire">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/14-jaane-bhi-do-yaaro.jpg" alt="Jaane Bhi Do Yaaro (1983) poster" loading="lazy"><span class="movie-rank">#14</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Jaane Bhi Do Yaaro <span class="movie-year">(1983)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Satire</span></div>
-              <p class="movie-blurb">A pitch-black satire on corruption that spirals into one of Hindi cinema’s most chaotic climaxes — a cult favorite that only gets sharper with age.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="15" data-year="2000" data-genres="Comedy,Crime">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/15-hera-pheri.jpg" alt="Hera Pheri (2000) poster" loading="lazy"><span class="movie-rank">#15</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Hera Pheri <span class="movie-year">(2000)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Crime</span></div>
-              <p class="movie-blurb">Three broke roommates stumble into a kidnapping scheme, and out of it come some of Bollywood comedy’s most endlessly memed lines, courtesy of Paresh Rawal’s Baburao.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="16" data-year="2001" data-genres="Sports,Drama,Musical">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/16-lagaan.jpg" alt="Lagaan (2001) poster" loading="lazy"><span class="movie-rank">#16</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lagaan <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">Musical</span></div>
-              <p class="movie-blurb">A drought-stricken village wagers its future on a cricket match against its British colonizers — nearly four hours long and an Oscar nominee for Best Foreign Film.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="17" data-year="1988" data-genres="Historical,Drama,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/17-bharat-ek-khoj.jpg" alt="Bharat Ek Khoj (1988) poster" loading="lazy"><span class="movie-rank">#17</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bharat Ek Khoj <span class="movie-year">(1988)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shyam Benegal’s 53-episode adaptation of Nehru’s “The Discovery of India” dramatizes five thousand years of subcontinental history — Doordarshan appointment viewing at its most ambitious.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="18" data-year="2023" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/18-sam-bahadur.jpg" alt="Sam Bahadur (2023) poster" loading="lazy"><span class="movie-rank">#18</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sam Bahadur <span class="movie-year">(2023)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Vicky Kaushal channels Field Marshal Sam Manekshaw’s wit and resolve through the 1971 war that created Bangladesh, directed by Meghna Gulzar.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="19" data-year="2021" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/19-shershaah.jpg" alt="Shershaah (2021) poster" loading="lazy"><span class="movie-rank">#19</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Shershaah <span class="movie-year">(2021)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Sidharth Malhotra plays Kargil War hero Captain Vikram Batra in this tribute to the soldier awarded India’s highest wartime gallantry honor, posthumously.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="20" data-year="2009" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/20-3-idiots.jpg" alt="3 Idiots (2009) poster" loading="lazy"><span class="movie-rank">#20</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">3 Idiots <span class="movie-year">(2009)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan’s engineering-college rebel argues that curiosity beats rote memorization, in a comedy that became required viewing for a generation of Indian students.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="21" data-year="1995" data-genres="Romance">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/21-dilwale-dulhania-le-jayenge.jpg" alt="Dilwale Dulhania Le Jayenge (1995) poster" loading="lazy"><span class="movie-rank">#21</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dilwale Dulhania Le Jayenge <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span></div>
-              <p class="movie-blurb">Shah Rukh Khan and Kajol’s cross-country romance ran continuously in a single Mumbai theater for over two decades — the defining NRI love story of the 90s.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="22" data-year="2006" data-genres="Political,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/22-rang-de-basanti.jpg" alt="Rang De Basanti (2006) poster" loading="lazy"><span class="movie-rank">#22</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Rang De Basanti <span class="movie-year">(2006)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#6d28d9">Political</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">A group of aimless college friends restage a freedom-fighter play and find themselves radicalized against present-day corruption — one of the sharpest youth-political dramas Bollywood has made.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="23" data-year="2001" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/23-dil-chahta-hai.jpg" alt="Dil Chahta Hai (2001) poster" loading="lazy"><span class="movie-rank">#23</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dil Chahta Hai <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Three childhood friends drift into adulthood and their first real heartbreaks, in the film that basically invented the modern Bollywood friendship movie.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="24" data-year="2025" data-genres="Action,Thriller,Spy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/24-dhurandhar.jpg" alt="Dhurandhar (2025) poster" loading="lazy"><span class="movie-rank">#24</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/24-dhurandhar.jpg" alt="Dhurandhar (2025) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Dhurandhar <span class="movie-year">(2025)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Thriller</span><span class="genre-tag" style="--tag-color:#64748b">Spy</span></div>
@@ -285,62 +153,11 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article></div>
-        </div>
-        <div class="movies-view" data-view="genre" hidden>
-          <h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#0369a1"></span>Drama <span class="genre-count">(17)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="1" data-year="1982" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/01-gandhi.png" alt="Gandhi (1982) poster" loading="lazy"><span class="movie-rank">#1</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Gandhi <span class="movie-year">(1982)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Richard Attenborough’s sweeping epic follows Mohandas Gandhi from a young lawyer thrown off a train in South Africa to the father of a nation’s independence. Ben Kingsley’s performance carried eight Oscars, including Best Picture.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="2" data-year="1993" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/02-sardar.jpg" alt="Sardar (1993) poster" loading="lazy"><span class="movie-rank">#2</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sardar <span class="movie-year">(1993)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Paresh Rawal delivers a career-defining turn as Sardar Vallabhbhai Patel, focusing on the final years he spent unifying over 500 princely states into a single India.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="3" data-year="2002" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/03-the-legend-of-bhagat-singh.jpg" alt="The Legend of Bhagat Singh (2002) poster" loading="lazy"><span class="movie-rank">#3</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">The Legend of Bhagat Singh <span class="movie-year">(2002)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Ajay Devgn’s intense portrayal of the young revolutionary traces Bhagat Singh’s path from witnessing the Jallianwala Bagh massacre to his execution at 23, scored by A. R. Rahman.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="5" data-year="1971" data-genres="Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/05-anand.jpg" alt="Anand (1971) poster" loading="lazy"><span class="movie-rank">#5</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Anand <span class="movie-year">(1971)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Rajesh Khanna’s terminally ill Anand chooses to live joyfully rather than mourn his own fate, in Hrishikesh Mukherjee’s gentle classic that still gets quoted decades later.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Anand_(1971_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Anand_(1971_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="6" data-year="1975" data-genres="Action,Adventure,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/06-sholay.jpg" alt="Sholay (1975) poster" loading="lazy"><span class="movie-rank">#6</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sholay <span class="movie-year">(1975)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Adventure</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Two small-time crooks, a fearsome dacoit, and one of Hindi cinema’s most quoted screenplays — Sholay basically wrote the rulebook for the Bollywood action-drama.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="8" data-year="2003" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/08-munna-bhai-m-b-b-s.jpg" alt="Munna Bhai M.B.B.S. (2003) poster" loading="lazy"><span class="movie-rank">#8</span></div>
+
+        <h2 class="category-heading">Comedies <span class="category-count">(6)</span></h2>
+        <div class="movies-grid">
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/08-munna-bhai-m-b-b-s.jpg" alt="Munna Bhai M.B.B.S. (2003) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Munna Bhai M.B.B.S. <span class="movie-year">(2003)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -349,8 +166,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="9" data-year="2006" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/09-lage-raho-munna-bhai.jpg" alt="Lage Raho Munna Bhai (2006) poster" loading="lazy"><span class="movie-rank">#9</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/09-lage-raho-munna-bhai.jpg" alt="Lage Raho Munna Bhai (2006) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Lage Raho Munna Bhai <span class="movie-year">(2006)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -359,78 +176,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="10" data-year="2007" data-genres="Sports,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/10-chak-de-india.jpg" alt="Chak De! India (2007) poster" loading="lazy"><span class="movie-rank">#10</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Chak De! India <span class="movie-year">(2007)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Shah Rukh Khan sheds the romantic-hero image to coach a fractured women’s hockey team to redemption — and delivers one of Bollywood’s great sports-movie speeches.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="12" data-year="1995" data-genres="Romance,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/12-bombay.jpg" alt="Bombay (1995) poster" loading="lazy"><span class="movie-rank">#12</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bombay <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Mani Ratnam sets an inter-religious love story against the real 1992–93 Bombay riots, with an A. R. Rahman score that has outlived the film’s original controversy.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="13" data-year="2016" data-genres="Sports,Biographical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/13-dangal.jpg" alt="Dangal (2016) poster" loading="lazy"><span class="movie-rank">#13</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dangal <span class="movie-year">(2016)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan trains his daughters to become world-class wrestlers in a small-town Haryana that never expected girls to wrestle at all — based on the real Phogat family.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="16" data-year="2001" data-genres="Sports,Drama,Musical">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/16-lagaan.jpg" alt="Lagaan (2001) poster" loading="lazy"><span class="movie-rank">#16</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lagaan <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">Musical</span></div>
-              <p class="movie-blurb">A drought-stricken village wagers its future on a cricket match against its British colonizers — nearly four hours long and an Oscar nominee for Best Foreign Film.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="17" data-year="1988" data-genres="Historical,Drama,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/17-bharat-ek-khoj.jpg" alt="Bharat Ek Khoj (1988) poster" loading="lazy"><span class="movie-rank">#17</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bharat Ek Khoj <span class="movie-year">(1988)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shyam Benegal’s 53-episode adaptation of Nehru’s “The Discovery of India” dramatizes five thousand years of subcontinental history — Doordarshan appointment viewing at its most ambitious.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="18" data-year="2023" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/18-sam-bahadur.jpg" alt="Sam Bahadur (2023) poster" loading="lazy"><span class="movie-rank">#18</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sam Bahadur <span class="movie-year">(2023)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Vicky Kaushal channels Field Marshal Sam Manekshaw’s wit and resolve through the 1971 war that created Bangladesh, directed by Meghna Gulzar.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="19" data-year="2021" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/19-shershaah.jpg" alt="Shershaah (2021) poster" loading="lazy"><span class="movie-rank">#19</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Shershaah <span class="movie-year">(2021)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Sidharth Malhotra plays Kargil War hero Captain Vikram Batra in this tribute to the soldier awarded India’s highest wartime gallantry honor, posthumously.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="20" data-year="2009" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/20-3-idiots.jpg" alt="3 Idiots (2009) poster" loading="lazy"><span class="movie-rank">#20</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/20-3-idiots.jpg" alt="3 Idiots (2009) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">3 Idiots <span class="movie-year">(2009)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -439,59 +186,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="22" data-year="2006" data-genres="Political,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/22-rang-de-basanti.jpg" alt="Rang De Basanti (2006) poster" loading="lazy"><span class="movie-rank">#22</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Rang De Basanti <span class="movie-year">(2006)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#6d28d9">Political</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">A group of aimless college friends restage a freedom-fighter play and find themselves radicalized against present-day corruption — one of the sharpest youth-political dramas Bollywood has made.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="23" data-year="2001" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/23-dil-chahta-hai.jpg" alt="Dil Chahta Hai (2001) poster" loading="lazy"><span class="movie-rank">#23</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dil Chahta Hai <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Three childhood friends drift into adulthood and their first real heartbreaks, in the film that basically invented the modern Bollywood friendship movie.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#ca8a04"></span>Comedy <span class="genre-count">(8)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="7" data-year="1987" data-genres="Action,Comedy,Sci-Fi">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/07-mr-india.jpg" alt="Mr. India (1987) poster" loading="lazy"><span class="movie-rank">#7</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Mr. India <span class="movie-year">(1987)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Sci-Fi</span></div>
-              <p class="movie-blurb">An orphanage caretaker turns invisible to fight Mogambo, one of Hindi cinema’s most deliciously over-the-top villains, in this beloved superhero-adjacent adventure.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="8" data-year="2003" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/08-munna-bhai-m-b-b-s.jpg" alt="Munna Bhai M.B.B.S. (2003) poster" loading="lazy"><span class="movie-rank">#8</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Munna Bhai M.B.B.S. <span class="movie-year">(2003)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">A tender-hearted gangster fakes his way into medical school and ends up teaching the profession a thing or two about bedside manner. Sanjay Dutt at his most likable.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="9" data-year="2006" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/09-lage-raho-munna-bhai.jpg" alt="Lage Raho Munna Bhai (2006) poster" loading="lazy"><span class="movie-rank">#9</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lage Raho Munna Bhai <span class="movie-year">(2006)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">The sequel that turned Gandhian philosophy into a pop-culture phenomenon, coining “Gandhigiri” for a generation that had mostly filed Gandhi under textbook history.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="11" data-year="1994" data-genres="Comedy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/11-andaz-apna-apna.jpg" alt="Andaz Apna Apna (1994) poster" loading="lazy"><span class="movie-rank">#11</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/11-andaz-apna-apna.jpg" alt="Andaz Apna Apna (1994) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Andaz Apna Apna <span class="movie-year">(1994)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span></div>
@@ -500,8 +196,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Andaz_Apna_Apna" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="14" data-year="1983" data-genres="Comedy,Satire">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/14-jaane-bhi-do-yaaro.jpg" alt="Jaane Bhi Do Yaaro (1983) poster" loading="lazy"><span class="movie-rank">#14</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/14-jaane-bhi-do-yaaro.jpg" alt="Jaane Bhi Do Yaaro (1983) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Jaane Bhi Do Yaaro <span class="movie-year">(1983)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Satire</span></div>
@@ -510,8 +206,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="15" data-year="2000" data-genres="Comedy,Crime">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/15-hera-pheri.jpg" alt="Hera Pheri (2000) poster" loading="lazy"><span class="movie-rank">#15</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/15-hera-pheri.jpg" alt="Hera Pheri (2000) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Hera Pheri <span class="movie-year">(2000)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Crime</span></div>
@@ -519,173 +215,12 @@
               <a class="movie-link" href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
-          </article>
-          <article class="movie-card" data-rank="20" data-year="2009" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/20-3-idiots.jpg" alt="3 Idiots (2009) poster" loading="lazy"><span class="movie-rank">#20</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">3 Idiots <span class="movie-year">(2009)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan’s engineering-college rebel argues that curiosity beats rote memorization, in a comedy that became required viewing for a generation of Indian students.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="23" data-year="2001" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/23-dil-chahta-hai.jpg" alt="Dil Chahta Hai (2001) poster" loading="lazy"><span class="movie-rank">#23</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dil Chahta Hai <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Three childhood friends drift into adulthood and their first real heartbreaks, in the film that basically invented the modern Bollywood friendship movie.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#b45309"></span>Biographical <span class="genre-count">(6)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="1" data-year="1982" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/01-gandhi.png" alt="Gandhi (1982) poster" loading="lazy"><span class="movie-rank">#1</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Gandhi <span class="movie-year">(1982)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Richard Attenborough’s sweeping epic follows Mohandas Gandhi from a young lawyer thrown off a train in South Africa to the father of a nation’s independence. Ben Kingsley’s performance carried eight Oscars, including Best Picture.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="2" data-year="1993" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/02-sardar.jpg" alt="Sardar (1993) poster" loading="lazy"><span class="movie-rank">#2</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sardar <span class="movie-year">(1993)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Paresh Rawal delivers a career-defining turn as Sardar Vallabhbhai Patel, focusing on the final years he spent unifying over 500 princely states into a single India.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="3" data-year="2002" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/03-the-legend-of-bhagat-singh.jpg" alt="The Legend of Bhagat Singh (2002) poster" loading="lazy"><span class="movie-rank">#3</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">The Legend of Bhagat Singh <span class="movie-year">(2002)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Ajay Devgn’s intense portrayal of the young revolutionary traces Bhagat Singh’s path from witnessing the Jallianwala Bagh massacre to his execution at 23, scored by A. R. Rahman.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="13" data-year="2016" data-genres="Sports,Biographical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/13-dangal.jpg" alt="Dangal (2016) poster" loading="lazy"><span class="movie-rank">#13</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dangal <span class="movie-year">(2016)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan trains his daughters to become world-class wrestlers in a small-town Haryana that never expected girls to wrestle at all — based on the real Phogat family.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="18" data-year="2023" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/18-sam-bahadur.jpg" alt="Sam Bahadur (2023) poster" loading="lazy"><span class="movie-rank">#18</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sam Bahadur <span class="movie-year">(2023)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Vicky Kaushal channels Field Marshal Sam Manekshaw’s wit and resolve through the 1971 war that created Bangladesh, directed by Meghna Gulzar.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="19" data-year="2021" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/19-shershaah.jpg" alt="Shershaah (2021) poster" loading="lazy"><span class="movie-rank">#19</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Shershaah <span class="movie-year">(2021)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Sidharth Malhotra plays Kargil War hero Captain Vikram Batra in this tribute to the soldier awarded India’s highest wartime gallantry honor, posthumously.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#7c2d12"></span>Historical <span class="genre-count">(5)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="1" data-year="1982" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/01-gandhi.png" alt="Gandhi (1982) poster" loading="lazy"><span class="movie-rank">#1</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Gandhi <span class="movie-year">(1982)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Richard Attenborough’s sweeping epic follows Mohandas Gandhi from a young lawyer thrown off a train in South Africa to the father of a nation’s independence. Ben Kingsley’s performance carried eight Oscars, including Best Picture.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="2" data-year="1993" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/02-sardar.jpg" alt="Sardar (1993) poster" loading="lazy"><span class="movie-rank">#2</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sardar <span class="movie-year">(1993)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Paresh Rawal delivers a career-defining turn as Sardar Vallabhbhai Patel, focusing on the final years he spent unifying over 500 princely states into a single India.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="3" data-year="2002" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/03-the-legend-of-bhagat-singh.jpg" alt="The Legend of Bhagat Singh (2002) poster" loading="lazy"><span class="movie-rank">#3</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">The Legend of Bhagat Singh <span class="movie-year">(2002)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Ajay Devgn’s intense portrayal of the young revolutionary traces Bhagat Singh’s path from witnessing the Jallianwala Bagh massacre to his execution at 23, scored by A. R. Rahman.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="4" data-year="2013" data-genres="Documentary,Historical,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/04-pradhanmantri.jpg" alt="Pradhanmantri (2013) poster" loading="lazy"><span class="movie-rank">#4</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Pradhanmantri <span class="movie-year">(2013)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#57534e">Documentary</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shekhar Kapur hosts this ABP News documentary series chronicling India’s prime ministers from Nehru onward — a weekly civics lesson dressed as television.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="17" data-year="1988" data-genres="Historical,Drama,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/17-bharat-ek-khoj.jpg" alt="Bharat Ek Khoj (1988) poster" loading="lazy"><span class="movie-rank">#17</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bharat Ek Khoj <span class="movie-year">(1988)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shyam Benegal’s 53-episode adaptation of Nehru’s “The Discovery of India” dramatizes five thousand years of subcontinental history — Doordarshan appointment viewing at its most ambitious.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#b91c1c"></span>Action <span class="genre-count">(3)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="6" data-year="1975" data-genres="Action,Adventure,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/06-sholay.jpg" alt="Sholay (1975) poster" loading="lazy"><span class="movie-rank">#6</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sholay <span class="movie-year">(1975)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Adventure</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Two small-time crooks, a fearsome dacoit, and one of Hindi cinema’s most quoted screenplays — Sholay basically wrote the rulebook for the Bollywood action-drama.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="7" data-year="1987" data-genres="Action,Comedy,Sci-Fi">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/07-mr-india.jpg" alt="Mr. India (1987) poster" loading="lazy"><span class="movie-rank">#7</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Mr. India <span class="movie-year">(1987)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Sci-Fi</span></div>
-              <p class="movie-blurb">An orphanage caretaker turns invisible to fight Mogambo, one of Hindi cinema’s most deliciously over-the-top villains, in this beloved superhero-adjacent adventure.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="24" data-year="2025" data-genres="Action,Thriller,Spy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/24-dhurandhar.jpg" alt="Dhurandhar (2025) poster" loading="lazy"><span class="movie-rank">#24</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dhurandhar <span class="movie-year">(2025)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Thriller</span><span class="genre-tag" style="--tag-color:#64748b">Spy</span></div>
-              <p class="movie-blurb">Ranveer Singh goes undercover inside Karachi’s criminal underworld in Aditya Dhar’s sprawling spy thriller — one of 2025’s biggest Hindi box-office hits, with a sequel already out.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#15803d"></span>Sports <span class="genre-count">(3)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="10" data-year="2007" data-genres="Sports,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/10-chak-de-india.jpg" alt="Chak De! India (2007) poster" loading="lazy"><span class="movie-rank">#10</span></div>
+          </article></div>
+
+        <h2 class="category-heading">Drama <span class="category-count">(7)</span></h2>
+        <div class="movies-grid">
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/10-chak-de-india.jpg" alt="Chak De! India (2007) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Chak De! India <span class="movie-year">(2007)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -694,8 +229,18 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="13" data-year="2016" data-genres="Sports,Biographical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/13-dangal.jpg" alt="Dangal (2016) poster" loading="lazy"><span class="movie-rank">#13</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/12-bombay.jpg" alt="Bombay (1995) poster" loading="lazy"></div>
+            <div class="movie-info">
+              <h3 class="movie-title">Bombay <span class="movie-year">(1995)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
+              <p class="movie-blurb">Mani Ratnam sets an inter-religious love story against the real 1992–93 Bombay riots, with an A. R. Rahman score that has outlived the film’s original controversy.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/13-dangal.jpg" alt="Dangal (2016) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Dangal <span class="movie-year">(2016)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -704,8 +249,8 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="16" data-year="2001" data-genres="Sports,Drama,Musical">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/16-lagaan.jpg" alt="Lagaan (2001) poster" loading="lazy"><span class="movie-rank">#16</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/16-lagaan.jpg" alt="Lagaan (2001) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Lagaan <span class="movie-year">(2001)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">Musical</span></div>
@@ -713,139 +258,9 @@
               <a class="movie-link" href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">More on Wikipedia →</a>
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>TV Series <span class="genre-count">(2)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="4" data-year="2013" data-genres="Documentary,Historical,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/04-pradhanmantri.jpg" alt="Pradhanmantri (2013) poster" loading="lazy"><span class="movie-rank">#4</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Pradhanmantri <span class="movie-year">(2013)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#57534e">Documentary</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shekhar Kapur hosts this ABP News documentary series chronicling India’s prime ministers from Nehru onward — a weekly civics lesson dressed as television.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
           </article>
-          <article class="movie-card" data-rank="17" data-year="1988" data-genres="Historical,Drama,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/17-bharat-ek-khoj.jpg" alt="Bharat Ek Khoj (1988) poster" loading="lazy"><span class="movie-rank">#17</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bharat Ek Khoj <span class="movie-year">(1988)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shyam Benegal’s 53-episode adaptation of Nehru’s “The Discovery of India” dramatizes five thousand years of subcontinental history — Doordarshan appointment viewing at its most ambitious.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#be185d"></span>Romance <span class="genre-count">(2)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="12" data-year="1995" data-genres="Romance,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/12-bombay.jpg" alt="Bombay (1995) poster" loading="lazy"><span class="movie-rank">#12</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bombay <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Mani Ratnam sets an inter-religious love story against the real 1992–93 Bombay riots, with an A. R. Rahman score that has outlived the film’s original controversy.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="21" data-year="1995" data-genres="Romance">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/21-dilwale-dulhania-le-jayenge.jpg" alt="Dilwale Dulhania Le Jayenge (1995) poster" loading="lazy"><span class="movie-rank">#21</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dilwale Dulhania Le Jayenge <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span></div>
-              <p class="movie-blurb">Shah Rukh Khan and Kajol’s cross-country romance ran continuously in a single Mumbai theater for over two decades — the defining NRI love story of the 90s.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#334155"></span>War <span class="genre-count">(2)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="18" data-year="2023" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/18-sam-bahadur.jpg" alt="Sam Bahadur (2023) poster" loading="lazy"><span class="movie-rank">#18</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sam Bahadur <span class="movie-year">(2023)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Vicky Kaushal channels Field Marshal Sam Manekshaw’s wit and resolve through the 1971 war that created Bangladesh, directed by Meghna Gulzar.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="19" data-year="2021" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/19-shershaah.jpg" alt="Shershaah (2021) poster" loading="lazy"><span class="movie-rank">#19</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Shershaah <span class="movie-year">(2021)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Sidharth Malhotra plays Kargil War hero Captain Vikram Batra in this tribute to the soldier awarded India’s highest wartime gallantry honor, posthumously.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#57534e"></span>Documentary <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="4" data-year="2013" data-genres="Documentary,Historical,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/04-pradhanmantri.jpg" alt="Pradhanmantri (2013) poster" loading="lazy"><span class="movie-rank">#4</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Pradhanmantri <span class="movie-year">(2013)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#57534e">Documentary</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shekhar Kapur hosts this ABP News documentary series chronicling India’s prime ministers from Nehru onward — a weekly civics lesson dressed as television.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Adventure <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="6" data-year="1975" data-genres="Action,Adventure,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/06-sholay.jpg" alt="Sholay (1975) poster" loading="lazy"><span class="movie-rank">#6</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sholay <span class="movie-year">(1975)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Adventure</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Two small-time crooks, a fearsome dacoit, and one of Hindi cinema’s most quoted screenplays — Sholay basically wrote the rulebook for the Bollywood action-drama.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Sci-Fi <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="7" data-year="1987" data-genres="Action,Comedy,Sci-Fi">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/07-mr-india.jpg" alt="Mr. India (1987) poster" loading="lazy"><span class="movie-rank">#7</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Mr. India <span class="movie-year">(1987)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Sci-Fi</span></div>
-              <p class="movie-blurb">An orphanage caretaker turns invisible to fight Mogambo, one of Hindi cinema’s most deliciously over-the-top villains, in this beloved superhero-adjacent adventure.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Satire <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="14" data-year="1983" data-genres="Comedy,Satire">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/14-jaane-bhi-do-yaaro.jpg" alt="Jaane Bhi Do Yaaro (1983) poster" loading="lazy"><span class="movie-rank">#14</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Jaane Bhi Do Yaaro <span class="movie-year">(1983)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Satire</span></div>
-              <p class="movie-blurb">A pitch-black satire on corruption that spirals into one of Hindi cinema’s most chaotic climaxes — a cult favorite that only gets sharper with age.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Crime <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="15" data-year="2000" data-genres="Comedy,Crime">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/15-hera-pheri.jpg" alt="Hera Pheri (2000) poster" loading="lazy"><span class="movie-rank">#15</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Hera Pheri <span class="movie-year">(2000)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Crime</span></div>
-              <p class="movie-blurb">Three broke roommates stumble into a kidnapping scheme, and out of it come some of Bollywood comedy’s most endlessly memed lines, courtesy of Paresh Rawal’s Baburao.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Musical <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="16" data-year="2001" data-genres="Sports,Drama,Musical">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/16-lagaan.jpg" alt="Lagaan (2001) poster" loading="lazy"><span class="movie-rank">#16</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lagaan <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">Musical</span></div>
-              <p class="movie-blurb">A drought-stricken village wagers its future on a cricket match against its British colonizers — nearly four hours long and an Oscar nominee for Best Foreign Film.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#6d28d9"></span>Political <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="22" data-year="2006" data-genres="Political,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/22-rang-de-basanti.jpg" alt="Rang De Basanti (2006) poster" loading="lazy"><span class="movie-rank">#22</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/22-rang-de-basanti.jpg" alt="Rang De Basanti (2006) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Rang De Basanti <span class="movie-year">(2006)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#6d28d9">Political</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -853,154 +268,9 @@
               <a class="movie-link" href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">More on Wikipedia →</a>
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Thriller <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="24" data-year="2025" data-genres="Action,Thriller,Spy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/24-dhurandhar.jpg" alt="Dhurandhar (2025) poster" loading="lazy"><span class="movie-rank">#24</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dhurandhar <span class="movie-year">(2025)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Thriller</span><span class="genre-tag" style="--tag-color:#64748b">Spy</span></div>
-              <p class="movie-blurb">Ranveer Singh goes undercover inside Karachi’s criminal underworld in Aditya Dhar’s sprawling spy thriller — one of 2025’s biggest Hindi box-office hits, with a sequel already out.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="genre-heading"><span class="genre-dot" style="--tag-color:#64748b"></span>Spy <span class="genre-count">(1)</span></h3>
-      <div class="movies-grid">
-          <article class="movie-card" data-rank="24" data-year="2025" data-genres="Action,Thriller,Spy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/24-dhurandhar.jpg" alt="Dhurandhar (2025) poster" loading="lazy"><span class="movie-rank">#24</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dhurandhar <span class="movie-year">(2025)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Thriller</span><span class="genre-tag" style="--tag-color:#64748b">Spy</span></div>
-              <p class="movie-blurb">Ranveer Singh goes undercover inside Karachi’s criminal underworld in Aditya Dhar’s sprawling spy thriller — one of 2025’s biggest Hindi box-office hits, with a sequel already out.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div>
-        </div>
-        <div class="movies-view" data-view="year" hidden>
-          <h3 class="decade-heading">1970s</h3><div class="movies-grid">
-          <article class="movie-card" data-rank="5" data-year="1971" data-genres="Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/05-anand.jpg" alt="Anand (1971) poster" loading="lazy"><span class="movie-rank">#5</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Anand <span class="movie-year">(1971)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Rajesh Khanna’s terminally ill Anand chooses to live joyfully rather than mourn his own fate, in Hrishikesh Mukherjee’s gentle classic that still gets quoted decades later.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Anand_(1971_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Anand_(1971_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
           </article>
-          <article class="movie-card" data-rank="6" data-year="1975" data-genres="Action,Adventure,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/06-sholay.jpg" alt="Sholay (1975) poster" loading="lazy"><span class="movie-rank">#6</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sholay <span class="movie-year">(1975)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Adventure</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Two small-time crooks, a fearsome dacoit, and one of Hindi cinema’s most quoted screenplays — Sholay basically wrote the rulebook for the Bollywood action-drama.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sholay" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="decade-heading">1980s</h3><div class="movies-grid">
-          <article class="movie-card" data-rank="1" data-year="1982" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/01-gandhi.png" alt="Gandhi (1982) poster" loading="lazy"><span class="movie-rank">#1</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Gandhi <span class="movie-year">(1982)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Richard Attenborough’s sweeping epic follows Mohandas Gandhi from a young lawyer thrown off a train in South Africa to the father of a nation’s independence. Ben Kingsley’s performance carried eight Oscars, including Best Picture.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Gandhi_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="14" data-year="1983" data-genres="Comedy,Satire">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/14-jaane-bhi-do-yaaro.jpg" alt="Jaane Bhi Do Yaaro (1983) poster" loading="lazy"><span class="movie-rank">#14</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Jaane Bhi Do Yaaro <span class="movie-year">(1983)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Satire</span></div>
-              <p class="movie-blurb">A pitch-black satire on corruption that spirals into one of Hindi cinema’s most chaotic climaxes — a cult favorite that only gets sharper with age.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Jaane_Bhi_Do_Yaaro" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="7" data-year="1987" data-genres="Action,Comedy,Sci-Fi">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/07-mr-india.jpg" alt="Mr. India (1987) poster" loading="lazy"><span class="movie-rank">#7</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Mr. India <span class="movie-year">(1987)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Sci-Fi</span></div>
-              <p class="movie-blurb">An orphanage caretaker turns invisible to fight Mogambo, one of Hindi cinema’s most deliciously over-the-top villains, in this beloved superhero-adjacent adventure.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Mr._India_(1987_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="17" data-year="1988" data-genres="Historical,Drama,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/17-bharat-ek-khoj.jpg" alt="Bharat Ek Khoj (1988) poster" loading="lazy"><span class="movie-rank">#17</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bharat Ek Khoj <span class="movie-year">(1988)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shyam Benegal’s 53-episode adaptation of Nehru’s “The Discovery of India” dramatizes five thousand years of subcontinental history — Doordarshan appointment viewing at its most ambitious.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bharat_Ek_Khoj" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="decade-heading">1990s</h3><div class="movies-grid">
-          <article class="movie-card" data-rank="2" data-year="1993" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/02-sardar.jpg" alt="Sardar (1993) poster" loading="lazy"><span class="movie-rank">#2</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sardar <span class="movie-year">(1993)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Paresh Rawal delivers a career-defining turn as Sardar Vallabhbhai Patel, focusing on the final years he spent unifying over 500 princely states into a single India.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sardar_(1993_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="11" data-year="1994" data-genres="Comedy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/11-andaz-apna-apna.jpg" alt="Andaz Apna Apna (1994) poster" loading="lazy"><span class="movie-rank">#11</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Andaz Apna Apna <span class="movie-year">(1994)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span></div>
-              <p class="movie-blurb">A gloriously silly cult comedy about two broke suitors chasing the same heiress — quoted line-for-line by fans who somehow love it more with every rewatch.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Andaz_Apna_Apna" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Andaz_Apna_Apna" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="12" data-year="1995" data-genres="Romance,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/12-bombay.jpg" alt="Bombay (1995) poster" loading="lazy"><span class="movie-rank">#12</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Bombay <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Mani Ratnam sets an inter-religious love story against the real 1992–93 Bombay riots, with an A. R. Rahman score that has outlived the film’s original controversy.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Bombay_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="21" data-year="1995" data-genres="Romance">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/21-dilwale-dulhania-le-jayenge.jpg" alt="Dilwale Dulhania Le Jayenge (1995) poster" loading="lazy"><span class="movie-rank">#21</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dilwale Dulhania Le Jayenge <span class="movie-year">(1995)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span></div>
-              <p class="movie-blurb">Shah Rukh Khan and Kajol’s cross-country romance ran continuously in a single Mumbai theater for over two decades — the defining NRI love story of the 90s.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="decade-heading">2000s</h3><div class="movies-grid">
-          <article class="movie-card" data-rank="15" data-year="2000" data-genres="Comedy,Crime">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/15-hera-pheri.jpg" alt="Hera Pheri (2000) poster" loading="lazy"><span class="movie-rank">#15</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Hera Pheri <span class="movie-year">(2000)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#64748b">Crime</span></div>
-              <p class="movie-blurb">Three broke roommates stumble into a kidnapping scheme, and out of it come some of Bollywood comedy’s most endlessly memed lines, courtesy of Paresh Rawal’s Baburao.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Hera_Pheri_(2000_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="16" data-year="2001" data-genres="Sports,Drama,Musical">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/16-lagaan.jpg" alt="Lagaan (2001) poster" loading="lazy"><span class="movie-rank">#16</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lagaan <span class="movie-year">(2001)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span><span class="genre-tag" style="--tag-color:#64748b">Musical</span></div>
-              <p class="movie-blurb">A drought-stricken village wagers its future on a cricket match against its British colonizers — nearly four hours long and an Oscar nominee for Best Foreign Film.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lagaan" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="23" data-year="2001" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/23-dil-chahta-hai.jpg" alt="Dil Chahta Hai (2001) poster" loading="lazy"><span class="movie-rank">#23</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/23-dil-chahta-hai.jpg" alt="Dil Chahta Hai (2001) poster" loading="lazy"></div>
             <div class="movie-info">
               <h3 class="movie-title">Dil Chahta Hai <span class="movie-year">(2001)</span></h3>
               <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
@@ -1009,117 +279,16 @@
               <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dil_Chahta_Hai" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article>
-          <article class="movie-card" data-rank="3" data-year="2002" data-genres="Biographical,Historical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/03-the-legend-of-bhagat-singh.jpg" alt="The Legend of Bhagat Singh (2002) poster" loading="lazy"><span class="movie-rank">#3</span></div>
+          <article class="movie-card">
+            <div class="movie-poster"><img class="poster-img" src="images/posters/21-dilwale-dulhania-le-jayenge.jpg" alt="Dilwale Dulhania Le Jayenge (1995) poster" loading="lazy"></div>
             <div class="movie-info">
-              <h3 class="movie-title">The Legend of Bhagat Singh <span class="movie-year">(2002)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Ajay Devgn’s intense portrayal of the young revolutionary traces Bhagat Singh’s path from witnessing the Jallianwala Bagh massacre to his execution at 23, scored by A. R. Rahman.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/The_Legend_of_Bhagat_Singh" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="8" data-year="2003" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/08-munna-bhai-m-b-b-s.jpg" alt="Munna Bhai M.B.B.S. (2003) poster" loading="lazy"><span class="movie-rank">#8</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Munna Bhai M.B.B.S. <span class="movie-year">(2003)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">A tender-hearted gangster fakes his way into medical school and ends up teaching the profession a thing or two about bedside manner. Sanjay Dutt at his most likable.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S." target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="9" data-year="2006" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/09-lage-raho-munna-bhai.jpg" alt="Lage Raho Munna Bhai (2006) poster" loading="lazy"><span class="movie-rank">#9</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Lage Raho Munna Bhai <span class="movie-year">(2006)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">The sequel that turned Gandhian philosophy into a pop-culture phenomenon, coining “Gandhigiri” for a generation that had mostly filed Gandhi under textbook history.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="22" data-year="2006" data-genres="Political,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/22-rang-de-basanti.jpg" alt="Rang De Basanti (2006) poster" loading="lazy"><span class="movie-rank">#22</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Rang De Basanti <span class="movie-year">(2006)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#6d28d9">Political</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">A group of aimless college friends restage a freedom-fighter play and find themselves radicalized against present-day corruption — one of the sharpest youth-political dramas Bollywood has made.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Rang_De_Basanti" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="10" data-year="2007" data-genres="Sports,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/10-chak-de-india.jpg" alt="Chak De! India (2007) poster" loading="lazy"><span class="movie-rank">#10</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Chak De! India <span class="movie-year">(2007)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Shah Rukh Khan sheds the romantic-hero image to coach a fractured women’s hockey team to redemption — and delivers one of Bollywood’s great sports-movie speeches.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Chak_De!_India" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="20" data-year="2009" data-genres="Comedy,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/20-3-idiots.jpg" alt="3 Idiots (2009) poster" loading="lazy"><span class="movie-rank">#20</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">3 Idiots <span class="movie-year">(2009)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#ca8a04">Comedy</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan’s engineering-college rebel argues that curiosity beats rote memorization, in a comedy that became required viewing for a generation of Indian students.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/3_Idiots" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="decade-heading">2010s</h3><div class="movies-grid">
-          <article class="movie-card" data-rank="4" data-year="2013" data-genres="Documentary,Historical,TV Series">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/04-pradhanmantri.jpg" alt="Pradhanmantri (2013) poster" loading="lazy"><span class="movie-rank">#4</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Pradhanmantri <span class="movie-year">(2013)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#57534e">Documentary</span><span class="genre-tag" style="--tag-color:#7c2d12">Historical</span><span class="genre-tag" style="--tag-color:#64748b">TV Series</span></div>
-              <p class="movie-blurb">Shekhar Kapur hosts this ABP News documentary series chronicling India’s prime ministers from Nehru onward — a weekly civics lesson dressed as television.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Pradhanmantri_(TV_series)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="13" data-year="2016" data-genres="Sports,Biographical,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/13-dangal.jpg" alt="Dangal (2016) poster" loading="lazy"><span class="movie-rank">#13</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dangal <span class="movie-year">(2016)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#15803d">Sports</span><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Aamir Khan trains his daughters to become world-class wrestlers in a small-town Haryana that never expected girls to wrestle at all — based on the real Phogat family.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article></div><h3 class="decade-heading">2020s</h3><div class="movies-grid">
-          <article class="movie-card" data-rank="19" data-year="2021" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/19-shershaah.jpg" alt="Shershaah (2021) poster" loading="lazy"><span class="movie-rank">#19</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Shershaah <span class="movie-year">(2021)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Sidharth Malhotra plays Kargil War hero Captain Vikram Batra in this tribute to the soldier awarded India’s highest wartime gallantry honor, posthumously.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Shershaah" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="18" data-year="2023" data-genres="Biographical,War,Drama">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/18-sam-bahadur.jpg" alt="Sam Bahadur (2023) poster" loading="lazy"><span class="movie-rank">#18</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Sam Bahadur <span class="movie-year">(2023)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b45309">Biographical</span><span class="genre-tag" style="--tag-color:#334155">War</span><span class="genre-tag" style="--tag-color:#0369a1">Drama</span></div>
-              <p class="movie-blurb">Vicky Kaushal channels Field Marshal Sam Manekshaw’s wit and resolve through the 1971 war that created Bangladesh, directed by Meghna Gulzar.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Sam_Bahadur_(film)" target="_blank" rel="noopener">Wikipedia</a>.</p>
-            </div>
-          </article>
-          <article class="movie-card" data-rank="24" data-year="2025" data-genres="Action,Thriller,Spy">
-            <div class="movie-poster"><img class="poster-img" src="images/posters/24-dhurandhar.jpg" alt="Dhurandhar (2025) poster" loading="lazy"><span class="movie-rank">#24</span></div>
-            <div class="movie-info">
-              <h3 class="movie-title">Dhurandhar <span class="movie-year">(2025)</span></h3>
-              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#b91c1c">Action</span><span class="genre-tag" style="--tag-color:#64748b">Thriller</span><span class="genre-tag" style="--tag-color:#64748b">Spy</span></div>
-              <p class="movie-blurb">Ranveer Singh goes undercover inside Karachi’s criminal underworld in Aditya Dhar’s sprawling spy thriller — one of 2025’s biggest Hindi box-office hits, with a sequel already out.</p>
-              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">More on Wikipedia →</a>
-              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dhurandhar" target="_blank" rel="noopener">Wikipedia</a>.</p>
+              <h3 class="movie-title">Dilwale Dulhania Le Jayenge <span class="movie-year">(1995)</span></h3>
+              <div class="movie-genres"><span class="genre-tag" style="--tag-color:#be185d">Romance</span></div>
+              <p class="movie-blurb">Shah Rukh Khan and Kajol’s cross-country romance ran continuously in a single Mumbai theater for over two decades — the defining NRI love story of the 90s.</p>
+              <a class="movie-link" href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">More on Wikipedia →</a>
+              <p class="poster-attrib">Poster © respective studio/distributor — used under fair use for identification, via <a href="https://en.wikipedia.org/wiki/Dilwale_Dulhania_Le_Jayenge" target="_blank" rel="noopener">Wikipedia</a>.</p>
             </div>
           </article></div>
-        </div>
       </div>
     </section>
   </main>
@@ -1137,14 +306,5 @@
     </div>
   </footer>
 
-  <script>
-    document.querySelectorAll('.sort-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const view = btn.dataset.view;
-        document.querySelectorAll('.sort-btn').forEach(b => b.classList.toggle('active', b === btn));
-        document.querySelectorAll('.movies-view').forEach(el => { el.hidden = el.dataset.view !== view; });
-      });
-    });
-  </script>
 </body>
 </html>
