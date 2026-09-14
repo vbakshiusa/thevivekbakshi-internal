@@ -98,6 +98,14 @@
   height: 100%;
 }
 
+.poster-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--color-surface);
+}
+
 .movie-rank {
   position: absolute;
   top: 0.6rem;
@@ -158,4 +166,23 @@
   margin-top: 0.85rem;
   font-size: 0.85rem;
   font-weight: 600;
+}
+
+.poster-attrib {
+  margin-top: 0.6rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+}
+
+.poster-attrib a {
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.poster-note {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
 }
